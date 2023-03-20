@@ -35,3 +35,53 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+#list ul {
+  list-style: none;
+  padding: 0;
+}
+
+select option.high-priority {
+  background-color: #FFCDD2;
+}
+  
+select option.medium-priority {
+  background-color: #F0F4C3;
+}
+
+select option.low-priority {
+  background-color: #B3E5FC;
+}
+
+
+.high {
+  background-color: #f8606f;
+}
+
+.medium {
+  background-color: #F0F4C3;
+}
+
+.low {
+  background-color: #B3E5FC;
+}
+
+
+li.high::before {
+  content: '⚠️';
+  color: #f8606f;
+  
+} 
+
+li.medium::before {
+  content: '⚠️';
+  color: #F0F4C3;
+  
+}
+
+li.low::before {
+  content: '⚠️';
+  color: #B3E5FC;
+  
+}
+
